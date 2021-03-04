@@ -1,0 +1,20 @@
+package Jun_4;
+
+import org.junit.jupiter.api.Test;
+
+public class TNGTest {
+    @Test
+    public void test1() {
+        System.out.println("@Test1 method");
+    }
+
+    @Test
+    public void test2() {
+        System.out.println("@Test2 method");
+    }
+
+    @Test
+    public void test3() {
+        System.out.println("@Test3 method");
+    }
+}
