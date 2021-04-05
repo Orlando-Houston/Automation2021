@@ -1,7 +1,7 @@
-package Jun_4;
+package Jun_6_TNG;
 import org.testng.annotations.*;
 
-public class TNG_Class_Method0 extends TNG_Suite{
+public class TNG_Class_Method5 extends TNG_Suite {
     @BeforeClass //similar to @BeforeAll in junit
     public void setUP() {
         System.out.println("Class2 - @BeforeClass method");
@@ -36,5 +36,4 @@ public class TNG_Class_Method0 extends TNG_Suite{
     public void test3() {
         System.out.println("Class2 - @Test3 method");
     }
-
 }

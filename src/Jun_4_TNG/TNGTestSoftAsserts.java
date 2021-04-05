@@ -1,7 +1,6 @@
-package Jun_4;
+package Jun_4_TNG;
 
 import main.java.appCode.AppforTest;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 

@@ -1,4 +1,4 @@
-package Jun_4;
+package Jun_4_TNG;
 
 import org.junit.jupiter.api.Test;
 

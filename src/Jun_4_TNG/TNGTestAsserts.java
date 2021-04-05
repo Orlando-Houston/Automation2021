@@ -1,10 +1,9 @@
-package Jun_4;
+package Jun_4_TNG;
 
 import org.junit.jupiter.api.Test;
 
 import main.java.appCode.AppforTest;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 
 public class TNGTestAsserts {

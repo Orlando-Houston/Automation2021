@@ -1,4 +1,4 @@
-package Jun_4;
+package Jun_4_TNG;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
