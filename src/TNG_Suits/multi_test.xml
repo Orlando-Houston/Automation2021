@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+        <suite name="Regression Suite">
+
+
+    <test name="app testing test1">
+
+
+    <classes>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method"/>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method2"/>
+
+</classes>
+
+</test>
+
+
+    <test name="app testing test2" preserve-order="false">
+
+
+    <classes>
+
+    <class name="tng.Jun_4_TNG.TNG_Class_Method2"/>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method3"/>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method7"/>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method8"/>
+
+    <class name="tng.Jun_4_TNG.Jun_6_TNG.TNG_Class_Method9"/>
+
+    <class name="tng.Jun_4_TNG.TNG_Class_Method0"/>
+
+</classes>
+
+</test>
+
+</suite>

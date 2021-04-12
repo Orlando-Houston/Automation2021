@@ -1,0 +1,10 @@
+TakeScreenshot sample: Can be used in AfterEach or AfterAll methods -
+@AfterAll
+public static void tearDown() throws IOException {
+    RandomString rString = new RandomString();
+    String fileNm = System.getProperty("user.dir")+"\\src\\snippets\\"+rString.genRandom(5)+".png";
+    File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    FileUtils.copyFile(srcFile, new File(fileNm));
+    driver.quit();
+    System.out.println("@AfterAll - closed browser session");
+}

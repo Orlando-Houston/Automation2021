@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+        -<suite thread-count="10" parallel="tests" name="JQUERY Tests">
+
+
+    -<test name="CLA Test">
+
+    <parameter name="linkNm" value="CLA"/>
+
+    <parameter name="header" value="OpenJS Foundation"/>
+
+    <parameter name="urlLink" value="openjsf"/>
+
+
+    -<classes>
+
+    <class name="main.java.testngclasses.TNG2_Parallel"/>
+
+</classes>
+
+</test>
+
+
+    -<test name="Documentation Test">
+
+    <parameter name="linkNm" value="Documentation"/>
+
+    <parameter name="header" value="Contributing to jQuery Foundation Documentation"/>
+
+    <parameter name="urlLink" value="documentation"/>
+
+
+    -<classes>
+
+    <class name="main.java.testngclasses.TNG2_Parallel"/>
+
+</classes>
+
+</test>
+
+
+    -<test name="Bug Triage Test">
+
+    <parameter name="linkNm" value="Bug Triage"/>
+
+    <parameter name="header" value="Bug Triage"/>
+
+    <parameter name="urlLink" value="triage"/>
+
+
+    -<classes>
+
+    <class name="main.java.testngclasses.TNG2_Parallel"/>
+
+</classes>
+
+</test>
+
+
+    -<test name="Style Guides Test">
+
+    <parameter name="linkNm" value="Style Guides"/>
+
+    <parameter name="header" value="jQuery’s Style Guides"/>
+
+    <parameter name="urlLink" value="style-guide"/>
+
+
+    -<classes>
+
+    <class name="main.java.testngclasses.TNG2_Parallel"/>
+
+</classes>
+
+</test>
+
+
+    -<test name="Web Sites Test">
+
+    <parameter name="linkNm" value="Web Sites"/>
+
+    <parameter name="header" value="Contributing to jQuery Foundation Web Sites"/>
+
+    <parameter name="urlLink" value="web-sites"/>
+
+
+    -<classes>
+
+    <class name="main.java.testngclasses.TNG2_Parallel"/>
+
+</classes>
+
+</test>
+
+
+    -<test name="Code Test">
+
+    <parameter name="linkNm" value="Code"/>
+
+    <parameter name="header" value="Writing Code for jQuery Foundation Projects"/>
+
+    <parameter name="urlLink" value="code"/>
+
+
+    -<classes>
+
+    <class name="tng/Jun_4_TNG/jun_7/TNG_Parameters.java"/>
+
+</classes>
+
+</test>
+
+</suite>

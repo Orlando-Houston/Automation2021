@@ -15,8 +15,16 @@
       <root url="jar://$PROJECT_DIR$/../TNG/jcommander-1.78.jar!/" />
       <root url="jar://$PROJECT_DIR$/../TNG/snakeyaml-1.21.jar!/" />
       <root url="jar://$PROJECT_DIR$/../TNG/testng-7.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/commons-io-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/testng-7.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/extentreports-2.41.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/freemarker-2.3.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/jsoup-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/sqlite-jdbc-3.31.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/commons-io-2.7-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/" />
     </SOURCES>
